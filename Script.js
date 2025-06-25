@@ -43,6 +43,21 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+/* For use u need this css styles
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+ */
+
 // ==================================Statistic Animation==================================
 
 let statistic = document.querySelector('.statistic__body');
